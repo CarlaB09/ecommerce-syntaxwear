@@ -1,20 +1,6 @@
-
-/* base.css: Reset, tipografia, variáveis */
-
-:root {
-  --primary-color: #222;
-  --secondary-color: #fff;
-  --font-family: "Ubuntu", sans-serif;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
-  font-family: var(--font-family);
-  color: var(--primary-color);
-  background: var(--secondary-color);
+  font-family: var(--main-font);
+  color: #333333;
+  background-color: #ffffff;
+
 }
