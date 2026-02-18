@@ -1,8 +1,10 @@
+
 /* base.css: Reset, tipografia, variáveis */
+
 :root {
   --primary-color: #222;
   --secondary-color: #fff;
-  --font-family: 'Segoe UI', Arial, sans-serif;
+  --font-family: "Ubuntu", sans-serif;
 }
 
 * {
