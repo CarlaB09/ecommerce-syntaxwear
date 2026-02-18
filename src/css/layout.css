@@ -1,0 +1,15 @@
+/* layout.css: Containers, grid, seções */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  gap: 2rem;
+}
+
+.section {
+  padding: 2rem 0;
+}
