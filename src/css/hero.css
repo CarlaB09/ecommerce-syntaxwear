@@ -6,6 +6,7 @@
   height: 500px;
   position: relative;
   display: flex;
+  border-radius: 20px;
 }
 
 .hero-overlay {
@@ -25,7 +26,10 @@ padding: 0 6rem;
 
 .hero-buttons {
   display: flex;
-  gap: 16px;
+  gap: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 } 
 
 .hero-content .hero_title{

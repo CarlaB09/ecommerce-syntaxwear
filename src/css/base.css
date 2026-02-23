@@ -22,3 +22,8 @@
   padding: 12px 41px;
 }
 
+.btn:hover {
+  background-color: #6329A2;
+  color: #ffffff;
+  border-color: #6329A2;
+}
