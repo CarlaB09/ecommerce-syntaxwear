@@ -1,6 +1,6 @@
 /*Product-Grid*/
 
-.grid-section{
+.grid-section {
   padding: 2.5rem;
 }
 
@@ -12,16 +12,16 @@
   border-radius: 20px;
 
 }
-  
+
 .highlight {
-    grid-area: highlight;
-    background-image: url(../assets/images/products/grid/highlight.jpg);
+  grid-area: highlight;
+  background-image: url(../assets/images/products/grid/highlight.jpg);
 }
 
 .sneaker-purple {
   grid-area: sneaker-purple;
-    background-image: url(../assets/images/products/grid/purple.jpg);
-    }
+  background-image: url(../assets/images/products/grid/purple.jpg);
+}
 
 .model {
   grid-area: model;
@@ -31,10 +31,10 @@
 
 .sneaker-color {
   grid-area: sneaker-color;
-    background-image: url(../assets/images/products/grid/colorful.jpg);
-      background-position: center;
-      background-size: cover;
-      background-repeat: no-repeat;
+  background-image: url(../assets/images/products/grid/colorful.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .sneaker-white {
@@ -87,7 +87,7 @@
   margin-bottom: 20px;
 }
 
- .cta-group{
+.cta-group {
   display: flex;
   gap: 10px;
- }
+}
