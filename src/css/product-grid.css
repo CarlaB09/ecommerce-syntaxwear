@@ -1,11 +1,16 @@
 /*Product-Grid*/
 
+.grid-section{
+  padding: 2.5rem;
+}
+
 .card {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
   border-radius: 20px;
+
 }
   
 .highlight {
