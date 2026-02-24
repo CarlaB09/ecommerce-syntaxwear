@@ -23,21 +23,28 @@
   text-align: center;
 }
 
-.hero-buttons {
-  display: flex;
-  gap: 1rem;
-  display: flex;
-}
-
 .hero-content .hero-title {
   font-size: 1.87rem;
   margin-bottom: 40px;
+ 
+  line-height: 36px;
+  letter-spacing: 3px;
+}
+
+h2{
+  font-size: 1.87rem;
   font-weight: 400;
   line-height: 36px;
   letter-spacing: 3px;
 }
 
-.hero-content .hero-subtitle {
+ .hero-subtitle {
   font-size: 1.25rem;
   font-weight: 400;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 40px;
+  padding: 40px 25px;
 }
