@@ -1,5 +1,18 @@
 {
-  "extends": [
-    "development"
-  ]
+  "extends": ["web-recommended"],
+  "hints": {
+    "accessibility": "error",
+    "html-checker": "error",
+    "css-validator": "error",
+    "image-optimization": "warning",
+    "https-only": "error",
+    "security": "error",
+    "no-vulnerable-libraries": "error",
+    "meta-viewport": "error",
+    "manifest-file": "warning",
+    "no-deprecated-api": "warning"
+  },
+  "connector": {
+    "name": "local"
+  }
 }

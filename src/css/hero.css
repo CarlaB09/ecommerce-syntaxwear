@@ -26,7 +26,6 @@
 .hero-content .hero-title {
   font-size: 1.87rem;
   margin-bottom: 40px;
- 
   line-height: 36px;
   letter-spacing: 3px;
 }
@@ -45,6 +44,35 @@ h2{
 
 .hero-buttons {
   display: flex;
-  gap: 40px;
+  gap: 16px;
   padding: 40px 25px;
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    height: 660px;
+    background-image: url(../assets/images/banners/hero.jpg);
+  }
+
+  .hero-overlay {
+    padding: 0;
+  }
+
+  .hero-content .hero-title {
+    font-size: 1.5rem;
+   }
+  .hero-content .hero-subtitle {
+    font-size: 1.25rem;
+  }
+
+  .hero-content {
+    max-width: 380px;
+    margin: 0 auto;
+  }
+
+  .btn{
+    font-size: 1.2rem;
+  }
+
+
 }

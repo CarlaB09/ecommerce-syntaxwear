@@ -1,14 +1,11 @@
 /*Product-Grid*/
-.grid-section {
-  padding: 2.5rem 0;
-}
 
 .card {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
-  border-radius: 20px;
+  border-radius: 20px;  
 
 }
 
@@ -31,25 +28,17 @@
 .sneaker-color {
   grid-area: sneaker-color;
   background-image: url(../assets/images/products/grid/colorful.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+
 }
 
 .sneaker-white {
   grid-area: sneaker-white;
   background-image: url(../assets/images/products/grid/white.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .sneaker-silver {
   grid-area: sneaker-silver;
   background-image: url(../assets/images/products/grid/silver.jpg);
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 
 .grid-section {
@@ -90,3 +79,33 @@
   display: flex;
   gap: 10px;
 }
+
+
+@media (max-width:768px) {
+    .grid-section {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(5, auto);
+        grid-template-areas:
+            "highlight highlight"
+            "sneaker-white sneaker-white"
+            "model sneaker-color"
+            "model sneaker-silver"
+            "sneaker-purple sneaker-purple";
+        max-width: 100%;
+        gap: 0.625rem;
+    }
+
+    .highlight {
+        min-height: 500px;
+    }
+
+    .model {
+        min-height: 370px;
+    }
+
+    .sneaker-white,
+    .sneaker-purple {
+        min-height: 190px;
+    }
+}
+

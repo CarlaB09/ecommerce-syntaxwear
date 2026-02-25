@@ -11,7 +11,7 @@
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	padding: 0.225rem 1.25rem;
+	padding: 0.265rem 1.25rem;
 	background-color: #ffffff;
 }
 
@@ -63,10 +63,9 @@
 .menu-icon {
 	width: 30px;
 	height: 30px;
-	display: block;
+	display: none;
 	cursor: pointer;
 	z-index: 1001;
-	display: none;
 }
 
 .menu-icon img {
