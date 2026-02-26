@@ -72,4 +72,3 @@ Copyright. All Rights Reserved.
 
 #### Figma image:
 ![Figma Image](./src/assets/images/banners/figma_img.PNG)
-<br>
