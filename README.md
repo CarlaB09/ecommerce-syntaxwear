@@ -3,7 +3,7 @@
 
 SyntaxWear is an ecommerce website focused on sneakers and tennis shoes, offering a modern, responsive, and secure experience for users. The project was developed with HTML and CSS, prioritizing accessibility, performance, and best practices.
 
-*  [Live Site URL](#)
+*  [Live Site URL](https://carlab09.github.io/ecommerce-syntaxwear/)
 
 ## Project Structure
 
